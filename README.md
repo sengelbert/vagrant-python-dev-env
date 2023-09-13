@@ -1,4 +1,7 @@
 # Vagrant Python Development Environment
+Creates a consistent development environment for Python on Linux to be utilized 
+across OS and team members to speed up developer onboarding and maintain
+consistent environments
 - Installs the latest version of Python and Pip for a Fedora based image 
 - Update the install.sh file for installing more dnf or pip packages
 - Update .bash_prompt for custom prompt settings
@@ -19,4 +22,4 @@ Start SSH Session on Vagrant VM\
 Destroy Vagrant VM\
 `vagrant destroy`\
 For more commands see the help docs for Vagrant\
-`vagrant -h`\
+`vagrant -h`
