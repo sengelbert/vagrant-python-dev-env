@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 
-# VM update and install
+# VM update
 sudo dnf update -y
-sudo dnf install -y python3-pip
+# VM install
+sudo dnf install -y python3-pip azure-cli virtualenv
+# VM install Windows garbage
+sudo dnf install -y dos2unix
+# VM Check versions
 sudo python --version
 sudo pip --version
 
