@@ -23,3 +23,6 @@ Destroy Vagrant VM\
 `vagrant destroy`\
 For more commands see the help docs for Vagrant\
 `vagrant -h`
+
+## VB Guest Additions
+`vagrant plugin install vagrant-vbguest`
