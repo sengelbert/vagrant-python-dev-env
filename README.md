@@ -25,4 +25,10 @@ For more commands see the help docs for Vagrant\
 `vagrant -h`
 
 ## VB Guest Additions
+Install Plugin
 `vagrant plugin install vagrant-vbguest`
+Check Status
+`vagrant vbguest --status`
+Force install
+`vagrant vbguest --do install`
+
